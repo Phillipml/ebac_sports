@@ -1,46 +1,147 @@
-# Getting Started with Create React App
+# 🏪 EBAC Sports - E-commerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma aplicação de e-commerce moderna desenvolvida com React e TypeScript, focada em produtos esportivos com funcionalidades de carrinho de compras e lista de favoritos.
 
-## Available Scripts
+## 📸 Screenshot
 
-In the project directory, you can run:
+![Screenshot da Aplicação](./public/screenshot.png)
+*Interface do E-commerce EBAC Sports com produtos, carrinho e favoritos*
 
-### `npm start`
+## 🚀 Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Catálogo de Produtos**: Exibição dinâmica de produtos esportivos
+- **Carrinho de Compras**: Adicionar/remover produtos com cálculo automático do total
+- **Lista de Favoritos**: Sistema de favoritos para produtos preferidos
+- **Estado Global**: Gerenciamento de estado com Redux Toolkit
+- **API Integration**: Integração com API para busca de produtos
+- **Loading States**: Estados de carregamento para melhor UX
+- **Design Responsivo**: Interface adaptável para diferentes dispositivos
+- **TypeScript**: Tipagem estática para maior segurança no desenvolvimento
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+- **React 18.2.0** - Biblioteca para construção da interface
+- **TypeScript 4.9.5** - Superset do JavaScript com tipagem estática
+- **Redux Toolkit 2.8.2** - Gerenciamento de estado global
+- **React Redux 9.2.0** - Integração React com Redux
+- **Styled Components 5.3.6** - CSS-in-JS para estilização
+- **Create React App** - Ferramenta de build e desenvolvimento
+- **ESLint + Prettier** - Linting e formatação de código
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📋 Pré-requisitos
 
-### `npm run build`
+- Node.js (versão 16 ou superior)
+- npm ou yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Como Executar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone o repositório**
+   ```bash
+   git clone <url-do-repositorio>
+   cd ebac_sports
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. **Execute o projeto em modo de desenvolvimento**
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. **Acesse a aplicação**
+   - Abra seu navegador e acesse `http://localhost:3000`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Scripts Disponíveis
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- `npm start` - Inicia o servidor de desenvolvimento
+- `npm run build` - Gera build de produção
+- `npm test` - Executa os testes
+- `npm run lint` - Executa o linter ESLint com correção automática
+- `npm run eject` - Ejecta do Create React App (irreversível)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🏗️ Estrutura do Projeto
 
-## Learn More
+```
+src/
+├── components/
+│   ├── Header/           # Cabeçalho com carrinho e favoritos
+│   └── Produto/          # Componente individual de produto
+├── containers/
+│   └── Produtos.tsx      # Container principal dos produtos
+├── services/
+│   └── api.ts           # Configuração da API
+├── store/
+│   └── index.ts         # Configuração do Redux store
+├── styles/
+│   └── GlobalStyle.ts   # Estilos globais
+├── assets/              # Imagens e recursos
+├── App.tsx              # Componente raiz
+└── index.tsx            # Ponto de entrada da aplicação
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎯 Como Usar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Visualize os Produtos**: A página principal exibe todos os produtos disponíveis
+2. **Adicione ao Carrinho**: Clique no botão de adicionar para incluir produtos no carrinho
+3. **Gerencie Favoritos**: Use o sistema de favoritos para marcar produtos preferidos
+4. **Monitore o Carrinho**: O header mostra a quantidade de itens e valor total
+5. **Navegação**: Interface intuitiva para uma experiência de compra fluida
+
+## 🏪 Funcionalidades do E-commerce
+
+### 🛒 **Carrinho de Compras**
+- Adicionar produtos
+- Remover produtos
+- Cálculo automático do valor total
+- Contador de itens no header
+
+### ❤️ **Sistema de Favoritos**
+- Marcar produtos como favoritos
+- Contador de favoritos no header
+- Persistência do estado
+
+### 📱 **Interface Responsiva**
+- Design adaptável para mobile e desktop
+- Componentes otimizados para diferentes telas
+- UX intuitiva e moderna
+
+## 🔧 Arquitetura
+
+### **Estado Global (Redux)**
+- **Carrinho**: Gerencia itens adicionados
+- **Favoritos**: Controla lista de produtos favoritos
+- **API**: Cache de dados dos produtos
+
+### **Componentes**
+- **Header**: Exibe informações do carrinho e favoritos
+- **Produtos**: Lista dinâmica de produtos
+- **Produto**: Card individual de produto
+
+## 🎨 Características do Design
+
+- **Styled Components**: CSS-in-JS para estilização modular
+- **Design System**: Componentes reutilizáveis
+- **Responsividade**: Adaptação automática para diferentes dispositivos
+- **UX Otimizada**: Interface intuitiva e fácil de usar
+
+## 🧪 Testes
+
+O projeto inclui configuração para testes com:
+- **Jest**: Framework de testes
+- **React Testing Library**: Utilitários para testes de componentes
+- **User Event**: Simulação de interações do usuário
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👨‍💻 Desenvolvido por
+
+[Seu Nome] - [Seu Email]
+
+---
+
+**Nota**: Este é um projeto de demonstração de e-commerce desenvolvido como parte do curso EBAC.
