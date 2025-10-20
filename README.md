@@ -149,7 +149,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Desenvolvido por
 
-[Seu Nome] - [Seu Email]
+Phillip Menezes - contato.phillip.menezes@gmail.com
 
 ---
 
