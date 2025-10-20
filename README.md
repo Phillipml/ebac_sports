@@ -4,8 +4,8 @@ Uma aplicação de e-commerce moderna desenvolvida com React e TypeScript, focad
 
 ## 📸 Screenshot
 
-![Screenshot da Aplicação](./public/screenshot.png)
-*Interface do E-commerce EBAC Sports com produtos, carrinho e favoritos*
+![Screenshot da Aplicação](https://raw.githubusercontent.com/Phillipml/ebac_sports/main/public/screenshot.png)
+_Interface do E-commerce EBAC Sports com produtos, carrinho e favoritos_
 
 ## 🚀 Funcionalidades
 
@@ -36,17 +36,20 @@ Uma aplicação de e-commerce moderna desenvolvida com React e TypeScript, focad
 ## 🚀 Como Executar
 
 1. **Clone o repositório**
+
    ```bash
    git clone <url-do-repositorio>
    cd ebac_sports
    ```
 
 2. **Instale as dependências**
+
    ```bash
    npm install
    ```
 
 3. **Execute o projeto em modo de desenvolvimento**
+
    ```bash
    npm start
    ```
@@ -93,17 +96,20 @@ src/
 ## 🏪 Funcionalidades do E-commerce
 
 ### 🛒 **Carrinho de Compras**
+
 - Adicionar produtos
 - Remover produtos
 - Cálculo automático do valor total
 - Contador de itens no header
 
 ### ❤️ **Sistema de Favoritos**
+
 - Marcar produtos como favoritos
 - Contador de favoritos no header
 - Persistência do estado
 
 ### 📱 **Interface Responsiva**
+
 - Design adaptável para mobile e desktop
 - Componentes otimizados para diferentes telas
 - UX intuitiva e moderna
@@ -111,11 +117,13 @@ src/
 ## 🔧 Arquitetura
 
 ### **Estado Global (Redux)**
+
 - **Carrinho**: Gerencia itens adicionados
 - **Favoritos**: Controla lista de produtos favoritos
 - **API**: Cache de dados dos produtos
 
 ### **Componentes**
+
 - **Header**: Exibe informações do carrinho e favoritos
 - **Produtos**: Lista dinâmica de produtos
 - **Produto**: Card individual de produto
@@ -130,6 +138,7 @@ src/
 ## 🧪 Testes
 
 O projeto inclui configuração para testes com:
+
 - **Jest**: Framework de testes
 - **React Testing Library**: Utilitários para testes de componentes
 - **User Event**: Simulação de interações do usuário
