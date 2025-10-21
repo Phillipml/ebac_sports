@@ -2,38 +2,53 @@
 
 Uma aplicação de e-commerce moderna desenvolvida com React e TypeScript, focada em produtos esportivos com funcionalidades de carrinho de compras e lista de favoritos.
 
-## 📸 Screenshot
+# 📸 Screenshot
 
 ![Screenshot da Aplicação](https://raw.githubusercontent.com/Phillipml/ebac_sports/main/public/screenshot.png)
 _Interface do E-commerce EBAC Sports com produtos, carrinho e favoritos_
 
-## 🚀 Funcionalidades
+# 🚀 Funcionalidades
 
-- **Catálogo de Produtos**: Exibição dinâmica de produtos esportivos
-- **Carrinho de Compras**: Adicionar/remover produtos com cálculo automático do total
-- **Lista de Favoritos**: Sistema de favoritos para produtos preferidos
-- **Estado Global**: Gerenciamento de estado com Redux Toolkit
-- **API Integration**: Integração com API para busca de produtos
-- **Loading States**: Estados de carregamento para melhor UX
-- **Design Responsivo**: Interface adaptável para diferentes dispositivos
-- **TypeScript**: Tipagem estática para maior segurança no desenvolvimento
+## Catálogo de Produtos:
+Exibição dinâmica de produtos esportivos
+## Carrinho de Compras:
+Adicionar/remover produtos com cálculo automático do total
+## Lista de Favoritos:
+Sistema de favoritos para produtos preferidos
+## Estado Global:
+Gerenciamento de estado com Redux Toolkit
+## API Integration:
+Integração com API para busca de produtos
+## Loading States:
+Estados de carregamento para melhor UX
+## Design Responsivo:
+Interface adaptável para diferentes dispositivos
+## TypeScript:
+Tipagem estática para maior segurança no desenvolvimento
 
-## 🛠️ Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 
-- **React 18.2.0** - Biblioteca para construção da interface
-- **TypeScript 4.9.5** - Superset do JavaScript com tipagem estática
-- **Redux Toolkit 2.8.2** - Gerenciamento de estado global
-- **React Redux 9.2.0** - Integração React com Redux
-- **Styled Components 5.3.6** - CSS-in-JS para estilização
-- **Create React App** - Ferramenta de build e desenvolvimento
-- **ESLint + Prettier** - Linting e formatação de código
+## React 18.2.0:
+Biblioteca para construção da interface
+## TypeScript 4.9.5:
+Superset do JavaScript com tipagem estática
+## Redux Toolkit 2.8.2:
+Gerenciamento de estado global
+## React Redux 9.2.0:
+Integração React com Redux
+## Styled Components 5.3.6:
+CSS-in-JS para estilização
+## Create React App:
+Ferramenta de build e desenvolvimento
+## ESLint + Prettier:
+Linting e formatação de código
 
-## 📋 Pré-requisitos
+# 📋 Pré-requisitos
 
 - Node.js (versão 16 ou superior)
 - npm ou yarn
 
-## 🚀 Como Executar
+# 🚀 Como Executar
 
 1. **Clone o repositório**
 
@@ -57,7 +72,7 @@ _Interface do E-commerce EBAC Sports com produtos, carrinho e favoritos_
 4. **Acesse a aplicação**
    - Abra seu navegador e acesse `http://localhost:3000`
 
-## 📦 Scripts Disponíveis
+# 📦 Scripts Disponíveis
 
 - `npm start` - Inicia o servidor de desenvolvimento
 - `npm run build` - Gera build de produção
@@ -65,7 +80,7 @@ _Interface do E-commerce EBAC Sports com produtos, carrinho e favoritos_
 - `npm run lint` - Executa o linter ESLint com correção automática
 - `npm run eject` - Ejecta do Create React App (irreversível)
 
-## 🏗️ Estrutura do Projeto
+# 🏗️ Estrutura do Projeto
 
 ```
 src/
@@ -85,7 +100,7 @@ src/
 └── index.tsx            # Ponto de entrada da aplicação
 ```
 
-## 🎯 Como Usar
+# 🎯 Como Usar
 
 1. **Visualize os Produtos**: A página principal exibe todos os produtos disponíveis
 2. **Adicione ao Carrinho**: Clique no botão de adicionar para incluir produtos no carrinho
@@ -93,49 +108,49 @@ src/
 4. **Monitore o Carrinho**: O header mostra a quantidade de itens e valor total
 5. **Navegação**: Interface intuitiva para uma experiência de compra fluida
 
-## 🏪 Funcionalidades do E-commerce
+# 🏪 Funcionalidades do E-commerce
 
-### 🛒 **Carrinho de Compras**
+# 🛒 **Carrinho de Compras**
 
 - Adicionar produtos
 - Remover produtos
 - Cálculo automático do valor total
 - Contador de itens no header
 
-### ❤️ **Sistema de Favoritos**
+# ❤️ **Sistema de Favoritos**
 
 - Marcar produtos como favoritos
 - Contador de favoritos no header
 - Persistência do estado
 
-### 📱 **Interface Responsiva**
+# 📱 **Interface Responsiva**
 
 - Design adaptável para mobile e desktop
 - Componentes otimizados para diferentes telas
 - UX intuitiva e moderna
 
-## 🔧 Arquitetura
+# 🔧 Arquitetura
 
-### **Estado Global (Redux)**
+# **Estado Global (Redux)**
 
 - **Carrinho**: Gerencia itens adicionados
 - **Favoritos**: Controla lista de produtos favoritos
 - **API**: Cache de dados dos produtos
 
-### **Componentes**
+# **Componentes**
 
 - **Header**: Exibe informações do carrinho e favoritos
 - **Produtos**: Lista dinâmica de produtos
 - **Produto**: Card individual de produto
 
-## 🎨 Características do Design
+# 🎨 Características do Design
 
 - **Styled Components**: CSS-in-JS para estilização modular
 - **Design System**: Componentes reutilizáveis
 - **Responsividade**: Adaptação automática para diferentes dispositivos
 - **UX Otimizada**: Interface intuitiva e fácil de usar
 
-## 🧪 Testes
+# 🧪 Testes
 
 O projeto inclui configuração para testes com:
 
@@ -143,14 +158,19 @@ O projeto inclui configuração para testes com:
 - **React Testing Library**: Utilitários para testes de componentes
 - **User Event**: Simulação de interações do usuário
 
-## 📝 Licença
+# 📝 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👨‍💻 Desenvolvido por
+**Desenvolvido por:**
+Phillip Menezes
 
-Phillip Menezes - contato.phillip.menezes@gmail.com
-
+**Email:**
+contato.phillip.menezes@gmail.com  
+**LinkedIn:**
+[Phillip Menezes](https://www.linkedin.com/in/phillip-menezes-063a39227/)  
+**GitHub:**
+[Phillipml](https://github.com/Phillipml/)
 ---
 
 **Nota**: Este é um projeto de demonstração de e-commerce desenvolvido como parte do curso EBAC.
